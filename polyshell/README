@@ -1,0 +1,11 @@
+Your task is to create a shellcode that can run on the following architectures:
+x86, x86-64, ARM, ARM64, MIPS-LE
+
+The shellcode must run within 1 second(s) and may run for at most 100000 cycles.
+The code must perform a syscall on each platform according to the following paramters:
+Syscall number: 150
+Argument 1: 54562
+Argument 2: A pointer to the string "together"
+
+You submit your code as a hex encoded string of max 4096 characters (2048 bytes)
+
